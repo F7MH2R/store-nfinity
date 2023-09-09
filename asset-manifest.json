@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/store-nfinity/static/js/main.93c8f2a2.js",
-    "index.html": "/store-nfinity/index.html",
-    "main.93c8f2a2.js.map": "/store-nfinity/static/js/main.93c8f2a2.js.map"
+    "main.js": "/storeinfinity/static/js/main.93c8f2a2.js",
+    "index.html": "/storeinfinity/index.html",
+    "main.93c8f2a2.js.map": "/storeinfinity/static/js/main.93c8f2a2.js.map"
   },
   "entrypoints": [
     "static/js/main.93c8f2a2.js"
