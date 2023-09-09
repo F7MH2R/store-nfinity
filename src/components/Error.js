@@ -1,3 +1,5 @@
+// Contact.js
+
 import React from "react";
 
 const Error = () => {
