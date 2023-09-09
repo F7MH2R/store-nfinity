@@ -1,20 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Error from "./components/Error";
 
-function app() {
-  return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route exact path="/storeinfinity" element={App}></Route>
-          <Route path="*" element={Error}></Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
-}
-app();
-ReactDOM.render(<app />, document.getElementById("root"));
+ReactDOM.render(
+  <HashRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="*" element={<Error />} />
+    </Routes>
+  </HashRouter>,
+  document.getElementById("root")
+);
