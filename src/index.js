@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter as Router, RouterProvider } from "react-router-dom";
+import { HashRouter as ROUTER } from "react-router-dom";
 import App from "./App";
 import Error from "./components/Error";
 
 ReactDOM.render(
-  <HashRouter>
+  <ROUTER>
     <App />
-  </HashRouter>,
+  </ROUTER>,
   document.getElementById("root")
 );
