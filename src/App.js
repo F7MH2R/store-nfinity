@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>Hola team tb</h1>
+      <h1>Kevin se la come</h1>
     </>
   );
 }
