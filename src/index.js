@@ -10,7 +10,7 @@ function app() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/storeinfinity" element={App}></Route>
-          <Route path="*" Component={Error}></Route>
+          <Route path="*" element={Error}></Route>
         </Routes>
       </BrowserRouter>
     </div>
