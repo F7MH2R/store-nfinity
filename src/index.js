@@ -16,4 +16,5 @@ function app() {
     </div>
   );
 }
+app();
 ReactDOM.render(<app />, document.getElementById("root"));
