@@ -1,12 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashRouter as ROUTER } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-//import Error from "./components/Error";
+import Error from "./components/Error";
 
-ReactDOM.render(
-  <ROUTER>
-    <App />
-  </ROUTER>,
-  document.getElementById("root")
-);
+function app() {
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/storeinfinity" element={App}></Route>
+          <Route path="*" Component={Error}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+}
+ReactDOM.render(<app />, document.getElementById("root"));
