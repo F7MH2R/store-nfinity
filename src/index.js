@@ -5,8 +5,8 @@ import App from "./App";
 import Error from "./components/Error";
 
 ReactDOM.render(
-  <Router>
+  <HashRouter>
     <App />
-  </Router>,
+  </HashRouter>,
   document.getElementById("root")
 );
