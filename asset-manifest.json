@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/store-nfinity/static/js/main.07e96a2e.js",
+    "main.js": "/store-nfinity/static/js/main.1d3e1b3f.js",
     "index.html": "/store-nfinity/index.html",
-    "main.07e96a2e.js.map": "/store-nfinity/static/js/main.07e96a2e.js.map"
+    "main.1d3e1b3f.js.map": "/store-nfinity/static/js/main.1d3e1b3f.js.map"
   },
   "entrypoints": [
-    "static/js/main.07e96a2e.js"
+    "static/js/main.1d3e1b3f.js"
   ]
 }
