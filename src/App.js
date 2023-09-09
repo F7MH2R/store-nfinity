@@ -1,8 +1,18 @@
+import React from "react";
+import { Link } from "react-router-dom";
 function App() {
   return (
-    <>
-      <h1>Duermanlo zzzz Ansu fati es una basura...</h1>
-    </>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Inicio</Link>
+        </li>
+        <li>
+          <Link to="/contacto">Contacto</Link>
+        </li>
+        {/* Agrega más enlaces según tus necesidades */}
+      </ul>
+    </nav>
   );
 }
 

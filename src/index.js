@@ -9,8 +9,8 @@ ReactDOM.render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/Error" element={<Error />} />
-      <Route path="/Contact" element={<Contact />} />
+      <Route path="/*" element={<Error />} />
+      <Route path="/contacto" element={<Contact />} />
     </Routes>
   </HashRouter>,
   document.getElementById("root")
