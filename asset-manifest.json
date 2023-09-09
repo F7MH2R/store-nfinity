@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/storeinfinity/static/js/main.80cf6316.js",
+    "main.js": "/storeinfinity/static/js/main.d08c69ed.js",
     "index.html": "/storeinfinity/index.html",
-    "main.80cf6316.js.map": "/storeinfinity/static/js/main.80cf6316.js.map"
+    "main.d08c69ed.js.map": "/storeinfinity/static/js/main.d08c69ed.js.map"
   },
   "entrypoints": [
-    "static/js/main.80cf6316.js"
+    "static/js/main.d08c69ed.js"
   ]
 }
