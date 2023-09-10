@@ -22,13 +22,7 @@ function Nav() {
           Inicio
         </Link>
         <Link className="enlace" to="/contacto">
-          Store
-        </Link>
-        <Link className="enlace" to="/contacto">
           contacto
-        </Link>
-        <Link className="enlace" to="/contacto">
-          Quienes Somos
         </Link>
       </div>
       <div className="menu_nav">
