@@ -1,0 +1,13 @@
+------subir cambios
+git config user.name "F7MH2R"
+git config user.email "skyicef7@gmail.com"
+git status
+git add nombre_del_archivo
+git commit -m "Mensaje descriptivo de los cambios"
+git push origin master
+-------------
+
+
+--------Crear una version de producción
+npm run deploy
+------------------------
