@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Error from "./components/Error";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <HashRouter>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Route path="/contacto" element={<Contact />} />
       <Route path="*" element={<Error />} />
     </Routes>
+    <Footer />
   </HashRouter>,
   document.getElementById("root")
 );

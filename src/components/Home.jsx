@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import Header from "./Header";
-import Footer from "./Footer";
+
 import Card from "./Card";
 import relojes from "../relojes";
 import reloj4 from "../assets/images/reloj4.png";
@@ -51,7 +51,6 @@ function Home() {
           ></iframe>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
