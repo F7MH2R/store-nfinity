@@ -24,6 +24,9 @@ function Nav() {
         <Link className="enlace" to="/contacto">
           contacto
         </Link>
+        <Link className="enlace" to="/contacto">
+          ¿Quienes somos?
+        </Link>
       </div>
       <div className="menu_nav">
         <img onClick={toggleMenu} src={menu_hamburguer} alt="menú" />
