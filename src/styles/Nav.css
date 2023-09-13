@@ -14,6 +14,7 @@ nav {
   color: gold;
   font-family: sans-serif;
   background-color: black;
+  border-bottom: 3px solid #d3d3d3;
 }
 
 .logo_nav {
@@ -25,7 +26,7 @@ nav {
 
 .logo_nav img {
   width: 50%;
-  height: 15vh;
+  height: 14vh;
 }
 
 .enlaces_nav {
@@ -83,5 +84,6 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    z-index: 100;
   }
 }
