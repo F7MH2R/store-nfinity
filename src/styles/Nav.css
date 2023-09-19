@@ -30,7 +30,10 @@ nav {
 }
 
 .enlaces_nav {
-  width: 50%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 20px;
 }
 
