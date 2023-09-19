@@ -15,3 +15,16 @@ header > h1 {
   top: 17%;
   color: #d3d3d3;
 }
+/* Media query para hacer que la imagen sea responsive en pantallas más pequeñas */
+@media (max-width: 768px) {
+  header > img {
+    height: 50vh; /* Ajusta la altura de la imagen para pantallas más pequeñas */
+  }
+}
+@media (max-width: 768px) {
+  header > h1 {
+    margin-top: 15%;
+    font-size: large;
+    top: 10%;
+  }
+}

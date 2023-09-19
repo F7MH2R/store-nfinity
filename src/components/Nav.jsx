@@ -27,7 +27,7 @@ function Nav() {
         <Link className="enlace" to="/contacto">
           ¿Quienes somos?
         </Link>
-        <Link className="enlace" to="/contacto">
+        <Link className="enlace" to="/Servicios">
           Servicios
         </Link>
       </div>

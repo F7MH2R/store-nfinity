@@ -43,16 +43,16 @@ body {
   height: 35%;
 }
 .Destacados h2 {
-  color: gold;
+  color: darkgoldenrod;
   margin: 4% 0%;
 }
 .Destacados h3 {
   margin: 4% 0%;
-  color: gold;
+  color: darkgoldenrod;
 }
 .titulo {
   text-align: center;
-  color: gold;
+  color: darkgoldenrod;
 }
 .titulo hr {
   margin-left: 25%;
@@ -71,7 +71,7 @@ body {
   color: white;
 }
 .UbicacionInfo h2 {
-  color: gold;
+  color: darkgoldenrod;
 }
 .UbicacionInfo p {
   font-size: large;

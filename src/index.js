@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Error from "./components/Error";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import Servicios from "./components/Servicios";
 import Footer from "./components/Footer";
 
 ReactDOM.render(
@@ -15,6 +16,8 @@ ReactDOM.render(
       <Route path="/" element={<Home />} />
       <Route path="/Home" element={<Home />} />
       <Route path="/contacto" element={<Contact />} />
+      <Route path="/Servicios" element={<Servicios />} />
+
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />
