@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/storeinfinity/static/css/main.ab19df1a.css",
-    "main.js": "/storeinfinity/static/js/main.10166e5d.js",
+    "main.css": "/storeinfinity/static/css/main.5b158ab2.css",
+    "main.js": "/storeinfinity/static/js/main.89f259ed.js",
     "static/media/reloj4.png": "/storeinfinity/static/media/reloj4.d862573940dd984c2a71.png",
     "static/media/reloj1.png": "/storeinfinity/static/media/reloj1.472233c24a322d4b3a92.png",
     "static/media/reloj3.png": "/storeinfinity/static/media/reloj3.b6d15894af58e72616cf.png",
@@ -10,11 +10,11 @@
     "static/media/menu.png": "/storeinfinity/static/media/menu.d3227a31eba7dbc1ddda.png",
     "static/media/header_image.jpeg": "/storeinfinity/static/media/header_image.97831786573e68e5b17a.jpeg",
     "index.html": "/storeinfinity/index.html",
-    "main.ab19df1a.css.map": "/storeinfinity/static/css/main.ab19df1a.css.map",
-    "main.10166e5d.js.map": "/storeinfinity/static/js/main.10166e5d.js.map"
+    "main.5b158ab2.css.map": "/storeinfinity/static/css/main.5b158ab2.css.map",
+    "main.89f259ed.js.map": "/storeinfinity/static/js/main.89f259ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab19df1a.css",
-    "static/js/main.10166e5d.js"
+    "static/css/main.5b158ab2.css",
+    "static/js/main.89f259ed.js"
   ]
 }
