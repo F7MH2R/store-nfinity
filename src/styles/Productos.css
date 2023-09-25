@@ -1,0 +1,30 @@
+.productos {
+  position: relative;
+  top: 5vh;
+}
+.inicio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inicio div {
+  width: 50%;
+  text-align: center;
+  font-family: sans-serif;
+}
+.inicio div > img {
+  width: 100%;
+}
+.inicio div > h1 {
+  color: rgb(157, 141, 48);
+  font-size: 30px;
+  margin: 5% 0;
+}
+.inicio div > p {
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .inicio div {
+    width: 100%;
+  }
+}
