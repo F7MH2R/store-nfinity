@@ -1,0 +1,112 @@
+body {
+  margin-top: 8%;
+  color: rgb(255, 255, 255);
+}
+/* Service.css */
+
+.imagen-contenedor {
+  position: relative;
+  display: inline-block;
+}
+
+.imagen {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.div-transparente {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.div-transparente p {
+  color: aliceblue;
+}
+.texto-centrado {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+/* Media query para hacerlo responsive */
+@media (max-width: 768px) {
+  .texto-centrado {
+    margin-top: 15%;
+    font-size: 40px;
+  }
+
+  .imagen-contenedor {
+    margin-top: 15%;
+  }
+}
+
+.fila-de-divs {
+  background-color: rgba(124, 123, 32, 0.386);
+  display: flex; /* Organiza los divs en una fila */
+  justify-content: space-between; /* Espacio uniforme entre los divs */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para los divs dentro de la fila */
+.fila-de-divs .div1,
+.fila-de-divs .div2 {
+  flex: 1; /* Distribuye el espacio disponible de manera uniforme */
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  /* Cambia el diseño de la fila de divs en pantallas más pequeñas */
+  .fila-de-divs {
+    flex-direction: column; /* Apila los divs verticalmente */
+  }
+
+  /* Estilos para los divs dentro de la fila en pantallas más pequeñas */
+  .fila-de-divs .div1,
+  .fila-de-divs .div2 {
+    display: flex;
+    flex-direction: column;
+    flex: none; /* Desactiva la expansión para que los divs no ocupen todo el ancho */
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+}
+
+.fila-de-divs2 {
+  display: flex; /* Organiza los divs en una fila */
+  justify-content: space-between; /* Espacio uniforme entre los divs */
+  justify-content: center;
+  align-items: center;
+}
+
+.fila-de-divs2 .div3,
+.fila-de-divs2 .div4 {
+  background-color: rgb(0, 0, 0);
+  flex: 1; /* Distribuye el espacio disponible de manera uniforme */
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.fila-de-divs2 .div3,
+.fila-de-divs2 .div4 {
+  background-color: rgba(0, 0, 0, 0.386);
+  flex: 1; /* Distribuye el espacio disponible de manera uniforme */
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.div3 .imagen {
+  opacity: 0.7; /* Ajusta el valor de opacidad según lo desees, 0.0 para completamente transparente, 1.0 para completamente opaco */
+}
