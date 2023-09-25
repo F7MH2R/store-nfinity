@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, Routes, Route } from "react-router-dom";
 //import App from "./App";
@@ -19,7 +18,6 @@ ReactDOM.render(
       <Route path="/contacto" element={<Contact />} />
       <Route path="/Servicios" element={<Servicios />} />
       <Route path="/Productos" element={<Productos />} />
-
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />
