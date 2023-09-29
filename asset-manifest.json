@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/storeinfinity/static/css/main.7652afb4.css",
-    "main.js": "/storeinfinity/static/js/main.c264c0ed.js",
+    "main.css": "/storeinfinity/static/css/main.b86acc5f.css",
+    "main.js": "/storeinfinity/static/js/main.2c7d06b1.js",
     "static/media/Enca.png": "/storeinfinity/static/media/Enca.52027faf0c7da572c6b9.png",
     "static/media/repara.png": "/storeinfinity/static/media/repara.fa483cfca8789738d661.png",
     "static/media/porta.png": "/storeinfinity/static/media/porta.f8266766ffbf14d63793.png",
     "static/media/reloj11.png": "/storeinfinity/static/media/reloj11.682f0f4d5b34c5310738.png",
+    "static/media/quienes.png": "/storeinfinity/static/media/quienes.b456fb1d7b58864d7145.png",
     "static/media/grab.png": "/storeinfinity/static/media/grab.62e5cb04cded018da6cd.png",
     "static/media/reloj6.png": "/storeinfinity/static/media/reloj6.322a4f3184a9024af5d5.png",
     "static/media/menu.png": "/storeinfinity/static/media/menu.4facfde99bd5099e5bdb.png",
@@ -23,11 +24,11 @@
     "static/media/logo.png": "/storeinfinity/static/media/logo.6f138fd6ddd245503ad0.png",
     "static/media/reloj9.jpg": "/storeinfinity/static/media/reloj9.5a2db85e80ca076732d6.jpg",
     "index.html": "/storeinfinity/index.html",
-    "main.7652afb4.css.map": "/storeinfinity/static/css/main.7652afb4.css.map",
-    "main.c264c0ed.js.map": "/storeinfinity/static/js/main.c264c0ed.js.map"
+    "main.b86acc5f.css.map": "/storeinfinity/static/css/main.b86acc5f.css.map",
+    "main.2c7d06b1.js.map": "/storeinfinity/static/js/main.2c7d06b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7652afb4.css",
-    "static/js/main.c264c0ed.js"
+    "static/css/main.b86acc5f.css",
+    "static/js/main.2c7d06b1.js"
   ]
 }
