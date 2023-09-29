@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Servicios from "./components/Servicios";
 import Footer from "./components/Footer";
+import WHO from "./components/who";
 
 ReactDOM.render(
   <HashRouter>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Route path="/Home" element={<Home />} />
       <Route path="/contacto" element={<Contact />} />
       <Route path="/Servicios" element={<Servicios />} />
+      <Route path="/who" element={<WHO />} />
 
       <Route path="*" element={<Error />} />
     </Routes>
