@@ -32,3 +32,35 @@
 .quienes1 {
   width: 100%;
 }
+.contenido {
+  width: 50%;
+  text-align: center;
+}
+.contenido p {
+  padding: 2rem;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 10px;
+}
+
+.accordion-question {
+  cursor: pointer;
+}
+
+.accordion-answer {
+  display: none;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.active .accordion-answer {
+  display: block;
+}

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Card(props) {
   return (
     <div>
@@ -5,7 +7,9 @@ function Card(props) {
       <h2>{props.tittle}</h2>
       <p>{props.information}</p>
       <h3>{props.price}</h3>
-      <button>Comprar</button>
+      <Link to={{ pathname: "/Vista", state: { cardProps: props } }}>
+        <button>Comprar</button>
+      </Link>
     </div>
   );
 }
