@@ -9,7 +9,8 @@ import Servicios from "./components/Servicios";
 import Footer from "./components/Footer";
 import Productos from "./components/Productos";
 import WHO from "./components/who";
-
+import Vista from "./components/Vista";
+import Ayuda from "./components/Ayuda";
 ReactDOM.render(
   <HashRouter>
     <Nav />
@@ -20,6 +21,7 @@ ReactDOM.render(
       <Route path="/Servicios" element={<Servicios />} />
       <Route path="/Productos" element={<Productos />} />{" "}
       <Route path="/who" element={<WHO />} />
+      <Route path="/Vista" element={<Vista />} />
       <Route path="*" element={<Error />} />
     </Routes>
     <Footer />

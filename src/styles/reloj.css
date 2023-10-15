@@ -1,0 +1,22 @@
+.reloj {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.reloj h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.reloj p {
+  font-size: 16px;
+  margin: 0;
+}
+.reloj img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150%;
+}
